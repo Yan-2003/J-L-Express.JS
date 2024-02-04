@@ -4,11 +4,14 @@
   "description": "Express Framework by Julliane ",
   "main": "server.js",
   "scripts": {
+    "development": "node --watch server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julliane",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
   }
 }
